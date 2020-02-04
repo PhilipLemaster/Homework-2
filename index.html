@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Philip Lemaster</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type='text/css' href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Josefin+Sans:300|Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Main content -->
+  <main>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <section class='row'>
+      <nav class='col-md-2 col-xs-1'>
+        <!-- Navbar -->
+        <ul class="nav flex-column" id=navbar>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </nav>
+      <div class='col-md-6 col-xs-11'>
+          <h1>Philip Lemaster</h1>
+      </div>
+      <div class="row" id="aboutwrapper">
+        <div class='col-md-2'>
+
+        </div>
+        <div class="col-md-5 col-xs-12">
+          <p id="hello">
+            Welcome!
+          </p>
+          <p id="aboutme">
+            My name is Philip Lemaster. I am a 25 year old software engineer student who lives in Charlotte, NC. I have a beautiful wife and a son named Silas who still under a year old! I am in the humble beginnnings of what I hope to be a long and fulfilling career in video game development. I am an avid video gamer and am also known by my IGN of ZeusOrangejuice. I create content for and stream League of Legends on Twitch and Youtube under this name; however I have a deep love for all video games both old and new. I cultivated this deep interest at a very young age when my grandparents bought me a Nintendo 64, and I've been hooked ever since!
+            Welcome to my small site and head over to <a id= portlink href="portfolio.html">my portfolio</a> to see some of my work!
+          </p>
+        </div>
+        <div class='col-md-3 col-xs-12' id='imagewrapper1'>
+          <img src="assets/Amanda and I.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+
+      </div>
+    </section>
+    <section class= "row">
+      <div class='col-md-4'>
+
+      </div>
+      <div class='col-md-4'>
+
+      </div>
+      <div class='col-md-4'>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <p>Published and Updated in 2/2020 by Philip Lemaster</p>
+    </div>
+  </footer>
+  <!-- Nav Script -->
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+</body>
+</html>

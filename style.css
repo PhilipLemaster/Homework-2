@@ -188,6 +188,8 @@ img {
 
   .projectImage {
     margin: auto;
+    width: 50%;
+    height: 30%;
     
   }
 }

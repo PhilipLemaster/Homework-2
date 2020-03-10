@@ -91,8 +91,6 @@ img {
   text-align: center;
   margin-block-start: auto;
   margin-block-end: auto;
-  position: relative;
-  right: 100px;
   font-family: 'Satisfy', cursive;
   font-size: 72px;
   }
@@ -101,6 +99,12 @@ img {
 .topnav {
     display: none;
 }
+
+#portTitle {
+  position: relative;
+  right: 100px;
+  }
+
 }
 
 @media (max-width: 480px) {

@@ -54,6 +54,8 @@ h1 {
     border: solid darkslategrey 4px;
     padding-left: 0px;
     padding-right: 0px;
+    position: relative;
+    top: 63px;
 }
 
 img {
@@ -101,21 +103,28 @@ img {
   margin-block-start: 20px;
 }
 
-#githubicon {
+#githubicon, #resumeIcon {
   width: 75px; height: 75px; margin-block-start: 20px
 }
 
-#linkedinicon, #githubicon {
+#linkedinicon, #githubicon, #resumeIcon {
   transition: width 1s, height 1s;
 }
 
-#linkedinicon:hover, #githubicon:hover {
+#linkedinicon:hover, #githubicon:hover, #resumeIcon:hover {
   width: 100px;
   height: 100px;
 }
 
 a:hover {
   color: rgb(189, 95, 32);
+}
+
+#resumeBox {
+  margin: auto;
+  position: relative;
+  left: 300px;
+  transition: ease-in-out background-color 2s;
 }
 
 @media (min-width: 480px) {
@@ -134,7 +143,8 @@ footer {
   font-weight: 600;
   font-variant: small-caps;
   position: relative;
-  top: 122px;
+  top: 100px;
+  left: 40px;
 }
 
 .card {
@@ -235,12 +245,17 @@ footer {
   #linkedinicon {
     position: relative;
     bottom: 95px;
-    left: 200px;
+    left: 146px;
   }
 
   #githubicon {
     position: relative;
-    left: 60px;
+  }
+
+  #resumeIcon {
+    position: relative;
+    left: 270px;
+    bottom: 190px;
   }
 
   .projectImage {
@@ -262,6 +277,18 @@ footer {
     top: 300px;
     background-color: rgba(255, 217, 0, 0.5);
     text-align: center;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: none;
+    margin-inline-start: 27px;
+    max-width: 360px;
+    padding: 0px;
   }
 }
 
@@ -312,16 +339,4 @@ box-shadow: 0 0 8px black;
 }
 .bs-example {
 margin: 20px;
-}
-
-footer {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: none;
-  margin-inline-start: 27px;
-  max-width: 360px;
-  padding: 0px;
 }

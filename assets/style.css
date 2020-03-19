@@ -1,3 +1,11 @@
+a:hover, button:hover, #githubicon:hover, #linkedinicon:hover, #resumeIcon:hover, #submitbut:hover {
+  cursor: url('pointer.svg'), pointer;
+}
+
+input:hover, textarea:hover {
+  cursor: url('text.svg'), text;
+}
+
 html,body {
     background-image: url(white\ background.jpeg);
     height: 100%;
@@ -9,6 +17,7 @@ html,body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 2;
+    cursor: url('cursor.svg'), default;
 }
 
 
